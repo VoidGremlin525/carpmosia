@@ -119,6 +119,12 @@
     AltarNanotrasenStealObjective: 1
     PlantRDStealObjective: 1
     ToiletGoldenStealObjective: 1
+    HeadFaxMachineHOPStealObjective: 1 # Carpmosia-edit - added departmental + head faxes
+    HeadFaxMachineHOSStealObjective: 1 # Carpmosia-edit - added departmental + head faxes
+    HeadFaxMachineQMStealObjective: 1 # Carpmosia-edit - added departmental + head faxes
+    HeadFaxMachineCEStealObjective: 1 # Carpmosia-edit - added departmental + head faxes
+    HeadFaxMachineRDStealObjective: 1 # Carpmosia-edit - added departmental + head faxes 
+    HeadFaxMachineCMOStealObjective: 1 # Carpmosia-edit - added departmental + head faxes
 
 - type: weightedRandom
   id: ThiefObjectiveGroupAnimal
