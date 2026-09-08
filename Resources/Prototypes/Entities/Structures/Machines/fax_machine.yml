@@ -140,10 +140,9 @@
       stealGroup: FaxMachineCaptain
     - type: Sprite #carpmosia edit- resprites the captain's fax machine
       layers:      
-      - state: icon
+      - state: icon_head
       - state: cover-icon
         color: "#334e6d"
-      - state: head-icon
       - state: idle
         map: [ "faxEyes" ]
       - state: printing

@@ -159,13 +159,12 @@
     - type: FaxMachine
       name: "Head of Personnel's Office"
     - type: StealTarget
-      stealGroup: FaxMachineHOP
+      stealGroup: HeadFaxMachineHOP
     - type: Sprite
       layers:      
-      - state: icon
+      - state: icon_head
       - state: cover-icon
         color: "#9fed58"
-      - state: head-icon
       - state: idle
         map: [ "faxEyes" ]
       - state: printing
@@ -183,13 +182,12 @@
     - type: FaxMachine
       name: "Head of Security's Office"
     - type: StealTarget
-      stealGroup: FaxMachineHOS
+      stealGroup: HeadFaxMachineHOS
     - type: Sprite
       layers:      
-      - state: icon
+      - state: icon_head
       - state: cover-icon
         color: "#de3a3a"
-      - state: head-icon
       - state: idle
         map: [ "faxEyes" ]
       - state: printing
@@ -207,13 +205,12 @@
     - type: FaxMachine
       name: "Quartermaster's Office"
     - type: StealTarget
-      stealGroup: FaxMachineQM
+      stealGroup: HeadFaxMachineQM
     - type: Sprite
       layers:      
-      - state: icon
+      - state: icon_head
       - state: cover-icon
         color: "#a46106"
-      - state: head-icon
       - state: idle
         map: [ "faxEyes" ]
       - state: printing
@@ -231,13 +228,12 @@
     - type: FaxMachine
       name: "Chief Engineer's Office"
     - type: StealTarget
-      stealGroup: FaxMachineCE
+      stealGroup: HeadFaxMachineCE
     - type: Sprite
       layers:      
-      - state: icon
+      - state: icon_head
       - state: cover-icon
         color: "#efb341"
-      - state: head-icon
       - state: idle
         map: [ "faxEyes" ]
       - state: printing
@@ -255,13 +251,12 @@
     - type: FaxMachine
       name: "Research Director's Office"
     - type: StealTarget
-      stealGroup: FaxMachineRD
+      stealGroup: HeadFaxMachineRD
     - type: Sprite
       layers:      
-      - state: icon
+      - state: icon_head
       - state: cover-icon
         color: "#d381c9"
-      - state: head-icon
       - state: idle
         map: [ "faxEyes" ]
       - state: printing
@@ -279,13 +274,12 @@
     - type: FaxMachine
       name: "Chief Medical Officer's Office"
     - type: StealTarget
-      stealGroup: FaxMachineCMO
+      stealGroup: HeadFaxMachineCMO
     - type: Sprite
       layers:      
-      - state: icon
+      - state: icon_head
       - state: cover-icon
         color: "#52b4e9"
-      - state: head-icon
       - state: idle
         map: [ "faxEyes" ]
       - state: printing
