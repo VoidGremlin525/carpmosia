@@ -7,20 +7,20 @@
   name: bridge long range fax machine
   suffix: Bridge
   components:
-    - type: FaxMachine
-      name: "Bridge"
-    - type: Sprite
-      layers:      
-      - state: icon
-      - state: cover-icon
-        color: "#334e6d"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Bridge"
+  - type: Sprite
+    layers:      
+    - state: icon
+    - state: cover-icon
+      color: "#334e6d"
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseSecurityContraband]
@@ -28,20 +28,20 @@
   name: security long range fax machine
   suffix: Security
   components:
-    - type: FaxMachine
-      name: "Security"
-    - type: Sprite
-      layers:      
-      - state: icon
-      - state: cover-icon
-        color: "#de3a3a"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Security"
+  - type: Sprite
+    layers:      
+    - state: icon
+    - state: cover-icon
+      color: "#de3a3a"
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseCargoContraband]
@@ -49,20 +49,20 @@
   name: cargo long range fax machine
   suffix: Cargo
   components:
-    - type: FaxMachine
-      name: "Cargo"
-    - type: Sprite
-      layers:      
-      - state: icon
-      - state: cover-icon
-        color: "#a46106"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Cargo"
+  - type: Sprite
+    layers:      
+    - state: icon
+    - state: cover-icon
+      color: "#a46106"
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseEngineeringContraband]
@@ -70,20 +70,20 @@
   name: engineering long range fax machine
   suffix: Engineering
   components:
-    - type: FaxMachine
-      name: "Engineering"
-    - type: Sprite
-      layers:      
-      - state: icon
-      - state: cover-icon
-        color: "#efb341"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Engineering"
+  - type: Sprite
+    layers:      
+    - state: icon
+    - state: cover-icon
+      color: "#efb341"
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseScienceContraband]
@@ -91,20 +91,20 @@
   name: science long range fax machine
   suffix: Science
   components:
-    - type: FaxMachine
-      name: "Science"
-    - type: Sprite
-      layers:      
-      - state: icon
-      - state: cover-icon
-        color: "#d381c9"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Science"
+  - type: Sprite
+    layers:      
+    - state: icon
+    - state: cover-icon
+      color: "#d381c9"
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseMedicalContraband]
@@ -112,20 +112,20 @@
   name: medical long range fax machine
   suffix: Medical
   components:
-    - type: FaxMachine
-      name: "Medical"
-    - type: Sprite
-      layers:      
-      - state: icon
-      - state: cover-icon
-        color: "#52b4e9"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Medical"
+  - type: Sprite
+    layers:      
+    - state: icon
+    - state: cover-icon
+      color: "#52b4e9"
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseCivilianContraband]
@@ -133,20 +133,20 @@
   name: service long range fax machine
   suffix: Service
   components:
-    - type: FaxMachine
-      name: "Service"
-    - type: Sprite
-      layers:      
-      - state: icon
-      - state: cover-icon
-        color: "#9fed58"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Service"
+  - type: Sprite
+    layers:      
+    - state: icon
+    - state: cover-icon
+      color: "#9fed58"
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 #Departmental Head Faxes (Not including the captain's fax, which is upstream)
 
@@ -156,22 +156,20 @@
   name: head of personnel long range fax machine
   suffix: HOP
   components:
-    - type: FaxMachine
-      name: "Head of Personnel's Office"
-    - type: StealTarget
-      stealGroup: HeadFaxMachineHOP
-    - type: Sprite
-      layers:      
-      - state: icon_head
-      - state: cover-icon
-        color: "#9fed58"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Head of Personnel's Office"
+  - type: StealTarget
+    stealGroup: HeadFaxMachineHOP
+  - type: Sprite
+    layers:      
+    - state: icon_hop
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseCommandContraband]
@@ -179,22 +177,20 @@
   name: head of security long range fax machine
   suffix: HOS
   components:
-    - type: FaxMachine
-      name: "Head of Security's Office"
-    - type: StealTarget
-      stealGroup: HeadFaxMachineHOS
-    - type: Sprite
-      layers:      
-      - state: icon_head
-      - state: cover-icon
-        color: "#de3a3a"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Head of Security's Office"
+  - type: StealTarget
+    stealGroup: HeadFaxMachineHOS
+  - type: Sprite
+    layers:      
+    - state: icon_hos
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseCommandContraband]
@@ -202,22 +198,20 @@
   name: quartermaster long range fax machine
   suffix: QM
   components:
-    - type: FaxMachine
-      name: "Quartermaster's Office"
-    - type: StealTarget
-      stealGroup: HeadFaxMachineQM
-    - type: Sprite
-      layers:      
-      - state: icon_head
-      - state: cover-icon
-        color: "#a46106"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Quartermaster's Office"
+  - type: StealTarget
+    stealGroup: HeadFaxMachineQM
+  - type: Sprite
+    layers:      
+    - state: icon_qm
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseCommandContraband]
@@ -225,22 +219,20 @@
   name: chief engineer long range fax machine
   suffix: CE
   components:
-    - type: FaxMachine
-      name: "Chief Engineer's Office"
-    - type: StealTarget
-      stealGroup: HeadFaxMachineCE
-    - type: Sprite
-      layers:      
-      - state: icon_head
-      - state: cover-icon
-        color: "#efb341"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Chief Engineer's Office"
+  - type: StealTarget
+    stealGroup: HeadFaxMachineCE
+  - type: Sprite
+    layers:      
+    - state: icon_ce
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseCommandContraband]
@@ -248,22 +240,20 @@
   name: research director long range fax machine
   suffix: RD
   components:
-    - type: FaxMachine
-      name: "Research Director's Office"
-    - type: StealTarget
-      stealGroup: HeadFaxMachineRD
-    - type: Sprite
-      layers:      
-      - state: icon_head
-      - state: cover-icon
-        color: "#d381c9"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Research Director's Office"
+  - type: StealTarget
+    stealGroup: HeadFaxMachineRD
+  - type: Sprite
+    layers:      
+    - state: icon_rd
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]
 
 - type: entity
   parent: [FaxMachineBase, BaseCommandContraband]
@@ -271,19 +261,17 @@
   name: chief medical officer long range fax machine
   suffix: CMO
   components:
-    - type: FaxMachine
-      name: "Chief Medical Officer's Office"
-    - type: StealTarget
-      stealGroup: HeadFaxMachineCMO
-    - type: Sprite
-      layers:      
-      - state: icon_head
-      - state: cover-icon
-        color: "#52b4e9"
-      - state: idle
-        map: [ "faxEyes" ]
-      - state: printing
-        map: [ "printing" ]
-        visible: false
-      - state: 
-        map: [ "enum.FaxMachineVisuals.VisualState" ]
+  - type: FaxMachine
+    name: "Chief Medical Officer's Office"
+  - type: StealTarget
+    stealGroup: HeadFaxMachineCMO
+  - type: Sprite
+    layers:      
+    - state: icon_cmo
+    - state: idle
+      map: [ "faxEyes" ]
+    - state: printing
+      map: [ "printing" ]
+      visible: false
+    - state: 
+      map: [ "enum.FaxMachineVisuals.VisualState" ]

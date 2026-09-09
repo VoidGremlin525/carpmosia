@@ -11,39 +11,39 @@
   name: steal-target-groups-head-fax-machine-head-of-personnel
   sprite:
     sprite: Structures/Machines/fax_machine.rsi  
-    state: icon_head
+    state: icon_hop
 
 - type: stealTargetGroup
   id: HeadFaxMachineHOS
   name: steal-target-groups-head-fax-machine-head-of-security
   sprite:
     sprite: Structures/Machines/fax_machine.rsi  
-    state: icon_head
+    state: icon_hos
 
 - type: stealTargetGroup
   id: HeadFaxMachineQM
   name: steal-target-groups-head-fax-machine-quartermaster
   sprite:
     sprite: Structures/Machines/fax_machine.rsi  
-    state: icon_head
+    state: icon_qm
 
 - type: stealTargetGroup
   id: HeadFaxMachineCE
   name: steal-target-groups-head-fax-machine-chief-engineer
   sprite:
     sprite: Structures/Machines/fax_machine.rsi  
-    state: icon_head
+    state: icon_ce
 
 - type: stealTargetGroup
   id: HeadFaxMachineRD
   name: steal-target-groups-head-fax-machine-research-director
   sprite:
     sprite: Structures/Machines/fax_machine.rsi  
-    state: icon_head
+    state: icon_rd
 
 - type: stealTargetGroup
   id: HeadFaxMachineCMO
   name: steal-target-groups-head-fax-machine-chief-medical-officer
   sprite:
     sprite: Structures/Machines/fax_machine.rsi  
-    state: icon_head
+    state: icon_cmo

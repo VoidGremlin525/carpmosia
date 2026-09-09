@@ -312,7 +312,7 @@
   name: steal-target-groups-fax-machine-captain
   sprite:
     sprite: Structures/Machines/fax_machine.rsi
-    state: icon_head #carpmosia edit for a minor resprite to distinguish head faxes from regular faxes
+    state: icon_captain #carpmosia edit - resprite
 
 - type: stealTargetGroup
   id: ChemDispenser

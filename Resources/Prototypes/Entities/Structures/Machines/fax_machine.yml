@@ -128,7 +128,7 @@
     emagType: Interaction
 
 - type: entity
-  parent: [FaxMachineBase, BaseCommandContraband] #carpmosia edit- adds the command contra to the captain's fax machine
+  parent: [FaxMachineBase, BaseCommandContraband] #carpmosia edit adding commandcontra
   id: FaxMachineCaptain
   name: captain long range fax machine
   suffix: NukeCodes
@@ -138,11 +138,10 @@
       receiveNukeCodes: true
     - type: StealTarget
       stealGroup: FaxMachineCaptain
-    - type: Sprite #carpmosia edit- resprites the captain's fax machine
+      # Carpmosia-start - resprite
+    - type: Sprite 
       layers:      
-      - state: icon_head
-      - state: cover-icon
-        color: "#334e6d"
+      - state: icon_captain
       - state: idle
         map: [ "faxEyes" ]
       - state: printing
@@ -150,3 +149,4 @@
         visible: false
       - state: 
         map: [ "enum.FaxMachineVisuals.VisualState" ]
+      # Carpmosia-end - resprite
