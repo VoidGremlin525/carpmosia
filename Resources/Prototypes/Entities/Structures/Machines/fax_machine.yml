@@ -128,7 +128,7 @@
     emagType: Interaction
 
 - type: entity
-  parent: [FaxMachineBase, BaseCommandContraband] #carpmosia edit adding commandcontra
+  parent: [FaxMachineBase, BaseCommandContraband] #Carpmosia - added commandcontra
   id: FaxMachineCaptain
   name: captain long range fax machine
   suffix: NukeCodes
