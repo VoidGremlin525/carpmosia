@@ -53,9 +53,8 @@ steal-target-groups-freezer-heater = freezer or heater
 steal-target-groups-altar-nanotrasen = nanotrasen altar (any)
 
 steal-target-groups-nuclear-bomb = nuclear fission explosive
-# Carpmosia-start - small edit
+# Carpmosia-edit - fax machines
 steal-target-groups-fax-machine-captain = captain's long range fax machine 
-# Carpmosia-end - small edit
 steal-target-groups-chem-dispenser = chemical dispenser
 steal-target-groups-xeno-artifact = alien artifact
 steal-target-groups-booze-dispenser = booze dispenser
