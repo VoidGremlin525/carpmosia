@@ -138,7 +138,7 @@
       receiveNukeCodes: true
     - type: StealTarget
       stealGroup: FaxMachineCaptain
-      # Carpmosia-edit - fax machines
+      # Carpmosia-start - fax machines
     - type: Sprite 
       layers:      
       - state: icon_captain
@@ -149,4 +149,4 @@
         visible: false
       - state: 
         map: [ "enum.FaxMachineVisuals.VisualState" ]
-      # Carpmosia-edit - fax machines
+      # Carpmosia-end - fax machines
