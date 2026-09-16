@@ -1,3 +1,14 @@
+#New base steal objective type for when an objective is to steal just one of a list of items
+- type: entity
+  abstract: true
+  parent: [BaseThiefObjective, BaseThiefStealObjective]
+  id: BaseThiefStealChoiceObjective
+  components:
+  - type: StealCondition
+    verifyMapExistence: true
+    descriptionText: objective-condition-thief-choice-description
+
+#Salvage Shuttle Circuit board
 - type: entity
   parent: BaseThiefStealObjective
   id: SalvageShuttleCircuitboardStealObjective
@@ -11,67 +22,12 @@
 
 #Departmental head Fax machine steal objectives
 - type: entity
-  parent: BaseThiefStealStructureObjective
-  id: HeadFaxMachineHOPStealObjective
+  parent: BaseThiefStealChoiceObjective #technically this is kinda a steal structure objective, but steal choice works better for the description
+  id: HeadFaxMachinesStealObjective
   components:
   - type: NotJobRequirement
-    jobs: [ HeadOfPersonnel ]
+    jobs: [ HeadOfPersonnel, HeadOfSecurity, Quartermaster, ChiefEngineer, ResearchDirector, ChiefMedicalOfficer ]
   - type: StealCondition
-    stealGroup: HeadFaxMachineHOP
-  - type: Objective
-    difficulty: 2
-
-- type: entity
-  parent: BaseThiefStealStructureObjective
-  id: HeadFaxMachineHOSStealObjective
-  components:
-  - type: NotJobRequirement
-    jobs: [ HeadOfSecurity ]
-  - type: StealCondition
-    stealGroup: HeadFaxMachineHOS
-  - type: Objective
-    difficulty: 2
-
-- type: entity
-  parent: BaseThiefStealStructureObjective
-  id: HeadFaxMachineQMStealObjective
-  components:
-  - type: NotJobRequirement
-    jobs: [ Quartermaster ]
-  - type: StealCondition
-    stealGroup: HeadFaxMachineQM
-  - type: Objective
-    difficulty: 2
-
-- type: entity
-  parent: BaseThiefStealStructureObjective
-  id: HeadFaxMachineCEStealObjective
-  components:
-  - type: NotJobRequirement
-    jobs: [ ChiefEngineer ]
-  - type: StealCondition
-    stealGroup: HeadFaxMachineCE
-  - type: Objective
-    difficulty: 2
-
-- type: entity
-  parent: BaseThiefStealStructureObjective
-  id: HeadFaxMachineRDStealObjective
-  components:
-  - type: NotJobRequirement
-    jobs: [ ResearchDirector ]
-  - type: StealCondition
-    stealGroup: HeadFaxMachineRD
-  - type: Objective
-    difficulty: 2
-
-- type: entity
-  parent: BaseThiefStealStructureObjective
-  id: HeadFaxMachineCMOStealObjective
-  components:
-  - type: NotJobRequirement
-    jobs: [ ChiefMedicalOfficer ]
-  - type: StealCondition
-    stealGroup: HeadFaxMachineCMO
+    stealGroup: HeadFaxMachines
   - type: Objective
     difficulty: 2

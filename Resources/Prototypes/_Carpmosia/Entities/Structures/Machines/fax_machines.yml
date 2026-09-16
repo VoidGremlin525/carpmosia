@@ -287,7 +287,7 @@
   - type: FaxMachine
     name: "Head of Personnel's Office"
   - type: StealTarget
-    stealGroup: HeadFaxMachineHOP
+    stealGroup: HeadFaxMachines
   - type: Sprite
     layers:      
     - state: icon_hop
@@ -308,7 +308,7 @@
   - type: FaxMachine
     name: "Head of Security's Office"
   - type: StealTarget
-    stealGroup: HeadFaxMachineHOS
+    stealGroup: HeadFaxMachines
   - type: Sprite
     layers:      
     - state: icon_hos
@@ -329,7 +329,7 @@
   - type: FaxMachine
     name: "Quartermaster's Office"
   - type: StealTarget
-    stealGroup: HeadFaxMachineQM
+    stealGroup: HeadFaxMachines
   - type: Sprite
     layers:      
     - state: icon_qm
@@ -350,7 +350,7 @@
   - type: FaxMachine
     name: "Chief Engineer's Office"
   - type: StealTarget
-    stealGroup: HeadFaxMachineCE
+    stealGroup: HeadFaxMachines
   - type: Sprite
     layers:      
     - state: icon_ce
@@ -371,7 +371,7 @@
   - type: FaxMachine
     name: "Research Director's Office"
   - type: StealTarget
-    stealGroup: HeadFaxMachineRD
+    stealGroup: HeadFaxMachines
   - type: Sprite
     layers:      
     - state: icon_rd
@@ -392,7 +392,7 @@
   - type: FaxMachine
     name: "Chief Medical Officer's Office"
   - type: StealTarget
-    stealGroup: HeadFaxMachineCMO
+    stealGroup: HeadFaxMachines
   - type: Sprite
     layers:      
     - state: icon_cmo

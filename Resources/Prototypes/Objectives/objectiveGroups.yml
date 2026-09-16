@@ -119,14 +119,7 @@
     AltarNanotrasenStealObjective: 1
     PlantRDStealObjective: 1
     ToiletGoldenStealObjective: 1
-    # Carpmosia-start - fax machines
-    HeadFaxMachineHOPStealObjective: .17 
-    HeadFaxMachineHOSStealObjective: .17
-    HeadFaxMachineQMStealObjective: .17
-    HeadFaxMachineCEStealObjective: .17
-    HeadFaxMachineRDStealObjective: .17
-    HeadFaxMachineCMOStealObjective: .17
-    # Carpmosia-end - fax machines
+    HeadFaxMachinesStealObjective: 1 # Carpmosia-edit - fax machines
 
 - type: weightedRandom
   id: ThiefObjectiveGroupAnimal
