@@ -9,5 +9,3 @@ objective-condition-steal-Ian = head of personnel's corgi
 objective-condition-thief-description = The {$itemName} would be a great addition to my collection!
 objective-condition-thief-animal-description = The {$itemName} would be a great addition to my collection! Most importantly, alive.
 objective-condition-thief-multiply-description = I need to get {$count} {MAKEPLURAL($itemName)} (any) and take them with me.
-# Carpmosia-edit - fax machines
-objective-condition-thief-choice-description = I need to get the {$itemName} (any) and take it with me.
